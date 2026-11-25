@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Calcul d'IMC"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Prénom" />
+
+        <EditText
+            android:id="@+id/etPoids"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Poids (Kg)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etTaille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taille (m)"
+            android:inputType="numberDecimal" />
+
+        <RadioGroup
+            android:id="@+id/rgSexe"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbHomme"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+
+                android:checked="true"
+                android:layout_weight="1"
+                android:text="Homme" />
+
+            <RadioButton
+                android:id="@+id/rbFemme"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="Femme" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCalculer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALCULER" />
+        <TextView
+            android:id="@+id/imc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
+
