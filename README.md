@@ -51,21 +51,6 @@ Cette application Android calcule l'IMC d'un utilisateur à partir de son préno
 
 ![Résultat final - composeur téléphonique](14.png)
 
-## Organisation des captures
-
-Créer un dossier `captures` à la racine du projet et y placer les captures avec les noms ci-dessus. Les images doivent montrer le code dans Android Studio ou l'application en cours d'exécution.
-
-```text
-captures/
-├── code-activity-main.png
-├── code-activity-resultat.png
-├── code-main-activity.png
-├── code-resultat-activity.png
-├── resultat-saisie.png
-├── resultat-imc.png
-└── resultat-appel.png
-```
-
 ## Exécution
 
 1. Ouvrir le projet dans Android Studio.
