@@ -17,32 +17,39 @@ Cette application Android calcule l'IMC d'un utilisateur à partir de son préno
 ### Interface principale - `activity_main.xml`
 
 ![Code de activity_main.xml](1.png)
+![Code de activity_main.xml](2.png)
+![Code de activity_main.xml](3.png)
 
 ### Interface résultat - `activity_resultat.xml`
 
-![Code de activity_resultat.xml](captures/code-activity-resultat.png)
+![Code de activity_resultat.xml](4.png)
 
 ### Activité principale - `MainActivity.java`
 
-![Code de MainActivity.java](captures/code-main-activity.png)
+![Code de MainActivity.java](5.png)
+![Code de MainActivity.java](6.png)
+![Code de MainActivity.java](7.png)
+![Code de MainActivity.java](8.png)
 
 ### Activité résultat - `ResultatActivity.java`
 
-![Code de ResultatActivity.java](captures/code-resultat-activity.png)
+![Code de ResultatActivity.java](9.png)
+![Code de ResultatActivity.java](10.png)
+![Code de ResultatActivity.java](11.png)
 
 ## Résultat final de l'application
 
 ### Écran de saisie de l'IMC
 
-![Résultat final - écran de saisie](captures/resultat-saisie.png)
+![Résultat final - écran de saisie](12.png)
 
 ### Écran du résultat et interprétation
 
-![Résultat final - écran IMC](captures/resultat-imc.png)
+![Résultat final - écran IMC](13.png)
 
 ### Intent implicite - composeur téléphonique
 
-![Résultat final - composeur téléphonique](captures/resultat-appel.png)
+![Résultat final - composeur téléphonique](14.png)
 
 ## Organisation des captures
 
